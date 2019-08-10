@@ -1,6 +1,6 @@
-def binary(n):
-   if n > 1:
-       binary(n//2)
-   print(n % 2,end = '')
+def binary(x):
+   if x > 1:
+       binary(x//2)
+   print(x % 2,end = '')
 dec = int(input())
 binary(dec)
