@@ -1,3 +1,3 @@
-a = input()
-mm = [ ch  for i, ch in enumerate(a) if ch not in a[:i]]
-print(''.join(mm))
+dd=str(input())
+p=" ".join(dd.split())
+print(p) 
